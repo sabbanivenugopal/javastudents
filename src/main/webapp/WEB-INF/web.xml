@@ -1,0 +1,28 @@
+<web-app>
+	<servlet>
+		<servlet-name>venugopal</servlet-name>
+		<servlet-class>javastudents.TestStudents</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>venugopal</servlet-name>
+		<url-pattern>/details</url-pattern>
+	</servlet-mapping>
+	<servlet>
+<servlet-name>gopal</servlet-name>
+<servlet-class>javastudents.TestStudentsLogin</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>gopal</servlet-name>
+<url-pattern>/loginpage</url-pattern>
+</servlet-mapping>
+	
+	
+	
+	
+	
+	
+	<welcome-file-list>
+<welcome-file>login.jsp</welcome-file>
+</welcome-file-list>
+	</web-app>
